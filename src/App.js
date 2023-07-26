@@ -35,6 +35,7 @@ function App() {
           <Link to="/users/deleteprofile"> <i className="fa-solid fa-user-minus"></i> Delete Profile</Link>
         </header>
         <Routes>
+        <Route index path="/" element={<Dashboard />} />
           <Route index path="/profile" element={<Dashboard />} />
           <Route path="Users" >
             <Route index element={<Dashboard />} />
