@@ -1,0 +1,1 @@
+export const profilesUrl = 'https://64b3d5e20efb99d862686dad.mockapi.io';

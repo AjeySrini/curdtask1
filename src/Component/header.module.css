@@ -1,0 +1,19 @@
+.header {
+    background-color: rgb(224, 224, 224);
+    min-height: 75px;
+    max-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+  }
+  
+  .menu{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .cart{
+    margin:4px;
+  }
+ 
+ 
