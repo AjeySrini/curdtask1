@@ -7,23 +7,11 @@ import Editprofile from './Component/Editprofile';
 import Dashboard from './Component/Dashboard';
 import Deleteprofile from './Component/Deleteprofile';
 import Viewprofile from './Component/Viewprofile';
-
-import { useEffect } from 'react';
 import Header from './Component/Header';
 
 function App() {
   
-  useEffect(() => {
-    window.addEventListener('keydown', (e) => {
-      console.log(e.key)
-      if (e.key === 'F5') {
-        e.preventDefault();
-        alert('Key pressed', e.key);
-      } else {
-        // alert('Key pressed', e);
-      }
-    })
-  }, [])
+  
   return (
     <div className="App">
       <Header/>
